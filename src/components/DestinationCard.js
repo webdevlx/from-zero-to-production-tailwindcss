@@ -8,7 +8,7 @@ app.component('destination-card', {
   template: 
   /* html */
   `
-    <div class="flex items-center rounded-lg bg-white shadow-lg max-w-lg mx-auto my-4 overflow-hidden">
+    <div class="flex items-center rounded-lg bg-white shadow-lg max-w-lg mx-auto my-3 overflow-hidden">
       <img class="w-36 h-36 flex-shrink-0" :src="destination.imageUrl" :alt="imageAlt" />
       <div class="px-8 py-4">
         <h1 class="text-xl font-bold">{{ destination.city }}</h1>
